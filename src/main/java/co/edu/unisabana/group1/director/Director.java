@@ -32,7 +32,7 @@ public class Director {
         creator.buildInteriorMaterial("Tela");
         creator.buildHasNavigationSystem(false);
         creator.buildHasSunroof(false);
-        creator.buildDescription("Hiunday Accent");
+        creator.buildDescription("Hyundai Accent");
     }
 
     public void constructFamilyCar(ICreator creator) {
