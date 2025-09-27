@@ -23,5 +23,9 @@ public class Main {
         director.constructFamilyCar(carCreator);
         Car familyCar = carCreator.getResultCar();
         System.out.println("Se creo el siguiente carro familiar: " + familyCar);
+
+        director.constructFamilyCar(carCreator);
+        Car secondFamilyCar = carCreator.getResultCar();
+        System.out.println("Se creo el siguiente carro familiar 2: " + secondFamilyCar);
     }
 }
